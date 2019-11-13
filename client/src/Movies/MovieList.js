@@ -18,6 +18,7 @@ const MovieList = props => {
     getMovies();
   }, []);
   console.log(props);
+  console.log(movies)
   return (
     <div className="movie-list">
       {movies.map(movie => (
